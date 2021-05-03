@@ -1,0 +1,143 @@
+html {
+    width: 60%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+body {
+    height: 100%;
+    min-height: 100%;
+    line-height: 1.75;
+    background-color: #FFFFFF;
+}
+a:link:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+    cursor: pointer;
+    cursor: hand;
+}
+input[type=submit], button {
+    cursor: pointer;
+    cursor: hand;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+  
+td, th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #6c757d;
+}
+
+.button1:hover {
+    background-color: #6c757d;
+    color: white;
+}
+p.thick {
+    font-weight: bold;
+}
+
+@media(max-width: 900px) {
+    html {
+        font-size: 14px !important;
+        width: 80% !important;
+    }
+}
+@media(max-width: 480px) {
+    html {
+        font-size: 12px !important;
+        width: 90% !important;
+    }
+}
+@media(max-width: 320px) {
+    html {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+}
+
+div.first {
+    width: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 200px;       
+    padding-bottom: 1px;
+    position: absolute;
+    background-color :#FFFFFF;
+  
+}
+div.second { 
+    width: 1110px; 
+    overflow-x:scroll;  
+    overflow-y:visible;
+    padding-bottom:1px;
+    height: auto;
+}
+div.third {
+    width: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 200px;       
+    padding-bottom: 1px;
+    position: absolute;
+    background-color :#FFFFFF;
+}
+div.fourth { 
+    width: 300px; 
+    overflow-x:scroll;  
+    overflow-y:visible;
+    padding-bottom:1px;
+    height: auto;
+}
+div.five {
+    width: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 200px;       
+    padding-bottom: 1px;
+    position: absolute;
+    background-color :#FFFFFF;
+}
+div.sixth { 
+    width: 700px; 
+    overflow-x:scroll;  
+    overflow-y:visible;
+    padding-bottom:1px;
+    height: auto;
+}
+
+#QueryOne, #QueryTwo, #QueryThree, #QueryFour, #QueryFive, #Q4, #Q1, #Q2, #Q3, #QSubmit{
+    display:none;
+}
